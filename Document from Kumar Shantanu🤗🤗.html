@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kumar Shantanu | Portfolio</title>
+<style>
+  :root {
+    --bg: #f7f9fc;
+    --text: #1b2430;
+    --muted: #5a6677;
+    --accent: #1f4fd8;
+    --line: #d8dfea;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11161e;
+      --text: #e8edf5;
+      --muted: #9aa6b8;
+      --accent: #7ea2ff;
+      --line: #263042;
+      --card: #171e29;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2.4rem; margin: 0 0 4px; line-height: 1.15; }
+  .role { color: var(--accent); font-size: 1.15rem; margin: 0 0 20px; }
+  p { margin: 0 0 14px; }
+  h2 {
+    font-size: 1.25rem;
+    margin: 40px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--line);
+  }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 8px; }
+  .muted { color: var(--muted); }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+  .skills li {
+    margin: 0;
+    padding: 6px 14px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 6px;
+  }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kumar Shantanu</h1>
+  <p class="role">Aspiring Software Engineer</p>
+  <p>I am a diploma student learning to build for the web. I am starting with HTML and looking for a software engineering internship where I can learn from real projects.</p>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Diploma in Civil Engineering</strong><br><span class="muted">Government Polytechnic, Purnea. Expected 2029</span></li>
+    <li><strong>Advanced Diploma in Computer Administration (ADCA)</strong><br><span class="muted">In progress</span></li>
+    <li><strong>10th</strong><br><span class="muted">87.8% (429 marks)</span></li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>Computer fundamentals</li>
+    <li>Computer administration</li>
+  </ul>
+
+  <h2>Certificate</h2>
+  <p><strong>Introduction to Computers Training</strong><br>
+  <span class="muted">Spoken Tutorial, IIT Bombay (EduPyramids, SINE). Score 100%, 30 October 2026</span></p>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:kumarshantanu439461@gmail.com">kumarshantanu439461@gmail.com</a><br>
+  Phone: <a href="tel:+919288272916">9288272916</a></p>
+</main>
+</body>
+</html>
